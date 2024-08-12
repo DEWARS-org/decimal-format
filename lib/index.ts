@@ -236,10 +236,12 @@ function round(n: number, scale: number, roundingMode: RoundingMode): string {
     }
 
     case RoundingMode.Down: {
-      return `${sign}${shrink(
-        Math.floor(+enlarge(Math.abs(n), scale)),
-        scale,
-      )}`;
+      return `${sign}${
+        shrink(
+          Math.floor(+enlarge(Math.abs(n), scale)),
+          scale,
+        )
+      }`;
     }
 
     case RoundingMode.HalfUp: {

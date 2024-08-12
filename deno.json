@@ -1,0 +1,16 @@
+{
+  "name": "@dewars/decimal-format",
+  "version": "1.0.0",
+  "exports": {
+    ".": "mod.ts"
+  },
+  "imports": {
+    "@std/expect": "jsr:@std/expect@^1.0.0"
+  },
+  "publish": {
+    "exclude": [
+      ".github",
+      "test"
+    ]
+  }
+}
