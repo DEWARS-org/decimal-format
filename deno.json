@@ -2,7 +2,7 @@
   "name": "@dewars/decimal-format",
   "version": "1.0.0",
   "exports": {
-    ".": "mod.ts"
+    ".": "./mod.ts"
   },
   "imports": {
     "@std/expect": "jsr:@std/expect@^1.0.0"
